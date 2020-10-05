@@ -1,0 +1,10 @@
+.title {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.logoname {
+  text-align: center;
+  margin-top: 5px;
+}
