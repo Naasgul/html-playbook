@@ -20,7 +20,7 @@
   color: #ffffff;
   padding-right: 30px;
   padding-left: 30px;
-  text-align: left;
+  text-align: center;
 }
 
 .share {
@@ -28,4 +28,22 @@
   left: 72px;
   width: 9px;
   height: 10px;
+  margin-right: 10px;
+}
+
+.btn1 {
+  top: auto;
+  left: auto;
+  width: auto;
+  height: 30px;
+
+  border-radius: 20px;
+  border: none;
+
+  color: #ffffff;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  background: transparent linear-gradient(180deg, #ed8770 0%, #d9519d 100%) 0%
+    0% no-repeat padding-box;
 }
