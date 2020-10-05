@@ -1,8 +1,31 @@
-.btn {
+/*.btn {
   border-radius: 20px;
   font-size: 1.2rem;
   color: white;
   background: #016b6b;
   border: none;
   padding: 10px 20px;
+}*/
+
+.btn {
+  top: auto;
+  left: auto;
+  width: auto;
+  height: 30px;
+  border: 1px solid var(--unnamed-color-ffffff);
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  opacity: 1;
+  background: none;
+  color: #ffffff;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.share {
+  top: 346px;
+  left: 72px;
+  width: 9px;
+  height: 10px;
 }
