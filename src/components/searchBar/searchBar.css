@@ -1,0 +1,22 @@
+.searchBar {
+  color: white;
+  border-radius: 25px;
+  background: #292e4b;
+  display: flex;
+  justify-content: center;
+  padding: 0.9em 2em;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  margin: 0 1em;
+  text-align: center;
+  display: flex;
+  color: white;
+  opacity: 20%;
+  font-size: 0.9em;
+  width: 118px;
+}
