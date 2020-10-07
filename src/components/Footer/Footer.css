@@ -18,3 +18,7 @@
   font-size: 10px;
   padding-top: 3%;
 }
+
+.itemActive {
+  color: #d9519d;
+}
