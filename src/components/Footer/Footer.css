@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  padding: 3% 0;
+  box-shadow: 0 -5px 5px -5px black;
+}
+
+.footer * {
+  display: flex;
+  margin: 0 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer span {
+  font-size: 10px;
+  padding-top: 3%;
+}
