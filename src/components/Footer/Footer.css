@@ -1,24 +1,28 @@
 .footer {
-  display: flex;
-  justify-content: center;
-
-  width: 100vw;
-  padding: 3% 0;
   box-shadow: 0 -5px 5px -5px black;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
-.footer * {
+.bottom-nav a {
+  text-decoration: none;
+  color: white;
+
   display: flex;
-  margin: 0 10%;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  padding: 12px 8px;
 }
 
-.footer span {
-  font-size: 10px;
-  padding-top: 5%;
-}
-
-.itemActive {
-  color: #d9519d;
+.bottom-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 280px;
 }
