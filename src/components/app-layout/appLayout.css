@@ -1,0 +1,6 @@
+.appLayout {
+  display: grid;
+  height: 100vh;
+
+  grid-template-rows: 64px auto 56px;
+}

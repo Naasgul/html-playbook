@@ -3,7 +3,11 @@ import buttonText from "./button-text.html";
 import buttonLogo from "./button-logo.html";
 import buttonFavorite from "./button-favorite.html";
 
-export default { title: "Components/Button" };
+//to center components
+export default {
+  title: "Components/Button",
+  parameters: { layout: "centered" },
+};
 
 export const withText = () => buttonText;
 export const withLogo = () => buttonLogo;
