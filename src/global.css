@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap");
 
+:root {
+  --main-font-color: white;
+  --main-background-color: #383b49;
+  --font-family: Roboto, sans-serif;
+}
+
 *,
 *::after,
 *::before {
@@ -8,13 +14,14 @@
 
 html {
   font-size: 16px;
-  background-color: #383b49;
+  background-color: var(--main-background-color);
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   margin: 0;
-  color: white;
+
+  color: var(--main-font-color);
 }
 
 input,
